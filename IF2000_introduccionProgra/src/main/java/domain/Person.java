@@ -65,9 +65,14 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" + "name=" + getName() + ", lastname=" + getLastname () + ", id=" + getId () + ", phone=" + getPhone () + ", age=" + getAge() + '}';
+     
+      return "Person{" + "name=" + getName() + ", lastname=" + getLastname () + ", id=" + getId () + ", phone=" + getPhone () + ", age=" + getAge() + '}';
+        
+    
+    
     }
 
-  
+        Person p = new  Person("Nidia","Rivera","703150544","71411617", "20");
+
     
 }
