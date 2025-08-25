@@ -19,15 +19,27 @@ import logic.Ejercicios_Semana_PracticasEnClase;
 }
 */
 
-
+/*
 public class IF2000_introduccionProgra {
     public static void main (String[] args){
         Ejercicios_Semana_PracticasEnClase ej;
     ej = new Ejercicios_Semana_PracticasEnClase();
       ej.quizz_B_piramide(5);
               
+        */      
+              
+
+ 
+
+public class IF2000_introduccionProgra {
+    public static void main (String[] args){
+        Ejercicios_Semana_PracticasEnClase ej;
+    ej = new Ejercicios_Semana_PracticasEnClase();
+      ej.tarea_figura(5);
+              
               
               
 
   }
 }
+
