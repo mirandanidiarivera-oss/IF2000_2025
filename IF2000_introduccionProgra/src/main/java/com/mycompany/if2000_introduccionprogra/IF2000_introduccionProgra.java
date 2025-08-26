@@ -19,27 +19,28 @@ import logic.Ejercicios_Semana_PracticasEnClase;
 }
 */
 
-/*
-public class IF2000_introduccionProgra {
-    public static void main (String[] args){
-        Ejercicios_Semana_PracticasEnClase ej;
-    ej = new Ejercicios_Semana_PracticasEnClase();
-      ej.quizz_B_piramide(5);
-              
-        */      
-              
 
- 
 
 public class IF2000_introduccionProgra {
-    public static void main (String[] args){
-        Ejercicios_Semana_PracticasEnClase ej;
-    ej = new Ejercicios_Semana_PracticasEnClase();
-      ej.tarea_figura(5);
-              
-              
-              
+    public static void main(String[] args) {
+        Ejercicios_Semana_PracticasEnClase ej = new Ejercicios_Semana_PracticasEnClase();
 
-  }
+        System.out.println("Figura A:");
+        ej.tarea_figura_A(5);
+        System.out.println(); // Línea en blanco para separar
+
+        System.out.println("Figura B:");
+        ej.tarea_figura_B(5);
+        System.out.println(); // Línea en blanco para separar
+
+        System.out.println("Figura C:");
+        ej.tarea_figura_C(5);
+        System.out.println(); // Línea final
+        
+        
+        
+        ej.ejercicioF();
+    }
 }
+
 
