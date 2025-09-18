@@ -8,41 +8,29 @@ package domain;
  *
  * @author miran
  */
-public class Person {
+public class Client {
     private String name;
-    private String lastname;
     private String id;
-    private String phone;
-    private String age;
+    private String phone;      // <- String en lugar de int
+    private String address;
 
-    public Person(String name, String lastname, String id, String phone, String age) {
+    public Client(String name, String id, String phone, String address) {
         this.name = name;
-        this.lastname = lastname;
         this.id = id;
         this.phone = phone;
-        this.age = age;
+        this.address = address;
     }
 
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getLastname() {
-        return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
     }
 
     public String getId() {
         return id;
     }
-
     public void setId(String id) {
         this.id = id;
     }
@@ -50,29 +38,25 @@ public class Person {
     public String getPhone() {
         return phone;
     }
-
     public void setPhone(String phone) {
         this.phone = phone;
     }
 
-    public String getAge() {
-        return age;
+    public String getAddress() {
+        return address;
     }
-
-    public void setAge(String age) {
-        this.age = age;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     @Override
     public String toString() {
-     
-      return "Person{" + "name=" + getName() + ", lastname=" + getLastname () + ", id=" + getId () + ", phone=" + getPhone () + ", age=" + getAge() + '}';
-        
-    
-    
+        return "--------------------"
+                + "\nClient:"
+                + "\nName: " + getName()
+                + "\nId: " + getId()
+                + "\nPhone: " + getPhone()
+                + "\nAddress: " + getAddress();
     }
-
-        Person p = new  Person("Nidia","Rivera","703150544","71411617", "20");
-
-    
 }
+
